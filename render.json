@@ -1,0 +1,19 @@
+   {
+     "services": [
+       {
+         "type": "web",
+         "name": "henrivazai",
+         "env": "python",
+         "region": "us",
+         "plan": "free",
+         "buildCommand": "pip install -r requirements.txt",
+         "startCommand": "python app.py",
+         "envVars": [
+           {
+             "key": "ENV",
+             "value": "production"
+           }
+         ]
+       }
+     ]
+   }
