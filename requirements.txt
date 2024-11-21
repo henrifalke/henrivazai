@@ -1,3 +1,5 @@
+streamlit
+
 gradio==3.50.2
 
 spacy==3.7.2
